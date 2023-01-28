@@ -17,7 +17,7 @@
 <p>At first you should download IntelliJ IDEA Ultimate and then from the <a href="https://start.spring.io">spring initializr</a> you choose your project, I have chose the Maven, language: Java, Spring Boot 27.8.
 </p><br> 
 <p>
-![spring Initializr](/C:/Users/User/Desktop/springI.png "Spring Initialzr").
+<img src="C:/Users/User/Desktop/springI.png"width="220" height="240">
 </p>
 
 ### Dependencies:

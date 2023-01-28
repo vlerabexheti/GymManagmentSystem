@@ -89,7 +89,7 @@ HTTP has a few important verbs.</p>
 ## REST API
 <p>The REST API to the example app is described below. We will use Insomnia the examples to test.</p>
 
-### Get list of Trainers
+## HTTP Request
 <br>
 <h3>POST Request</h3>
 <p>
@@ -108,3 +108,34 @@ HTTP has a few important verbs.</p>
 <img src="delete.png" width="50%"height="200"><img src="deleteResponse.png"width="50%">
 </p>
 
+### Make the Member Entity
+<p>
+<img src="member.png" width="50%">
+</p>
+<h3>Here we should be careful when defining the foreign key from the trainer table. We here used @ManyToOne annotation and @JoinColumn
+
+### Make the Member Service
+<p>
+<img src="members.png" width="50%"><img src="membersd.png" width="50%">
+</p>
+
+### Make the Member Repository
+<p>
+<img src="memberr.png" width="50%">
+</p>
+
+### Make the Member Controller
+<p>
+<img src="memberc.png" width="50%">
+</p>
+
+## HTTP Request
+<br>
+<h3>POST Request</h3>
+<p>
+<img src="memberpost.png" width="50%" height="290"><img src="memberresponse.png"width="50%">
+</p>
+<p>So after inserting the member we can see now the GET request from the trainer</p>
+<p>
+<img src="1.png" width="50%" height="290"><img src="1.1.png"width="50%">
+</p>

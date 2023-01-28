@@ -76,7 +76,8 @@ HTTP has a few important verbs.</p>
 ### Make Service and DefaultService
 <p>We create now a Service that is an Interface and a DefaultService, a class that will inherit the interface </p>
 <p>
- <img src="trainers.png"><img src="trainderdf.png>
+ <img src="trainers.png">
+ <img src="trainderdf.png>
 </p>
 
 ### Make Controller

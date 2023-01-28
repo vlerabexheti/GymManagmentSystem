@@ -16,8 +16,9 @@
 ## Steps To Run The Project
 <p>At first you should download IntelliJ IDEA Ultimate and then from the <a href="https://start.spring.io">spring initializr</a> you choose your project, I have chose the Maven, language: Java, Spring Boot 27.8.
 </p><br> 
+<p>
 <img src="C:\Users\User\Desktop\springI.png">
-
+</p>
 ### Dependencies:
 <ul>
 <li>Spring Web</li>

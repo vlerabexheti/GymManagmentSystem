@@ -105,6 +105,6 @@ HTTP has a few important verbs.</p>
 </p>
 <h3>DELETE Request</h3>
 <p>
-<img src="delete.png" width="50%"height="340"><img src="deleteResponse.png"width="50%">
+<img src="delete.png" width="50%"><img src="deleteResponse.png"width="50%">
 </p>
 

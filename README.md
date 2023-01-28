@@ -39,15 +39,6 @@ And in application.properties should add:<br><br>
 <p>
  <img src="properties.png">
 </p>
-<ul>
-<li>spring.jpa.database-platform=com.mysql.cj.jdbc.Driver</li><br>
-<li>spring.jpa.hibernate.ddl-auto=update</li><br>
-<li>spring.datasource.url=jdbc:mysql://localhost:3306/database_name</li><br>
-<li>spring.datasource.username=root</li><br>
-<li>spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver</li><br>
-<li>spring.jpa.show-sql=true</li><br>
-<li>spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect</li><br>
-</ul></p>
 <br><p>Then you should create the database in phpmyAdmin and write the database name, after all this you can create the @REST operations and from Insomnia you can write and then it creates automatically the tables and insert records. </p>
 
 ## REST

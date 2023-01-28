@@ -86,4 +86,25 @@ HTTP has a few important verbs.</p>
  <img src="trainerc.png">
 </p>
 
+## REST API
+<p>The REST API to the example app is described below. We will use Insomnia the examples to test.</p>
+
+### Get list of Trainers
+<br>
+<h3>POST Request</h3>
+<p>
+<img src="post.png" width="50%"><img src="postResponse.png"width="50%">
+</p>
+<h3>GET Request</h3>
+<p>
+<img src="get.png" width="50%"><img src="getResponse.png"width="50%">
+</p>
+<h3>PUT Request</h3>
+<p>
+<img src="put.png" width="50%"><img src="putResponse.png"width="50%">
+</p>
+<h3>DELETE Request</h3>
+<p>
+<img src="delete.png" width="50%"><img src="deleteResponse.png"width="50%">
+</p>
 

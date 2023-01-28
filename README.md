@@ -184,7 +184,7 @@ HTTP has a few important verbs.</p>
 <br>
 <h3>POST Request</h3>
 <p>
-<img src="/images/equipmentpost.png" width="50%"><img src="/images/equipmentresponse.png"width="50%">
+<img src="/images/equimentpost.png" width="50%"><img src="/images/equipmentresponse.png"width="50%">
 </p>
 <br>
 <h3>GET Request</h3>
@@ -213,4 +213,3 @@ HTTP has a few important verbs.</p>
 <br>
 <br>
 <img src="/images/test4.png">
-<p>

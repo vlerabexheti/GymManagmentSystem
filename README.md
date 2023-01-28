@@ -93,7 +93,7 @@ HTTP has a few important verbs.</p>
 <br>
 <h3>POST Request</h3>
 <p>
-<img src="post.png" width="50%"><img src="postResponse.png"width="50%">
+<img src="post.png" width="50%" height="240"><img src="postResponse.png"width="50%">
 </p>
 <h3>GET Request</h3>
 <p>

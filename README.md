@@ -36,6 +36,9 @@
 
 <br>
 And in application.properties should add:<br><br>
+<p>
+ <img src="properties.png">
+</p>
 <ul>
 <li>spring.jpa.database-platform=com.mysql.cj.jdbc.Driver</li><br>
 <li>spring.jpa.hibernate.ddl-auto=update</li><br>

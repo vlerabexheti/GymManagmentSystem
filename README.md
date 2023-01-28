@@ -1,6 +1,6 @@
 # GymManagmentSystem
 
-This is a Springboot project for Java Progamming language. 
+<p>This is a Springboot project for Java Progamming language. Gym Managment System project contains 4 package: pojo, service, repository and controller.in pojo we have Trainer class, Member class and Equipments class. At first a trainer is created to database and then when we want to create a member we should create it only by defining the trainer's id. So every member should have a trainer.</p>
 ## Requirements
 <h3>For building and running the application you will need:</h3>
 <ul>

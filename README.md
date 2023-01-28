@@ -1,6 +1,6 @@
 # GymManagmentSystem
 
-<p>This is a Springboot project for Java Progamming language. Gym Managment System project contains 4 package: pojo, service, repository and controller.in pojo we have Trainer class, Member class and Equipments class. At first a trainer is created to database and then when we want to create a member we should create it only by defining the trainer's id. So every member should have a trainer.</p>
+<p>This is a Springboot project for Java Progamming language. Gym Managment System project contains 4 package: pojo, service, repository and controller.in pojo we have Trainer class, Member class and Equipments class. At first a trainer is created to database and then when we want to create a member we should create it only by defining the trainer's id. So every member should have a trainer.You can create, edit, delete or show all trainers.</p>
 
 ## Requirements
 <h3>For building and running the application you will need:</h3>
@@ -22,3 +22,20 @@ The dependencies are:
 <li>MySql Driver</li>
 <li>Spring Boot Dev Tools</li>
 </ul>
+
+## DDL script
+<p>To connect the prpject will database, you should do some changes and write things in application.properties and be sure you have dependency:<br>
+<dependency><br>
+<groupId>com.mysql</groupId><br>
+<artifactId>mysql-connector-j</artifactId><br>
+<scope>runtime</scope><br>
+</dependency><br>
+And in application.properties should add:<br>
+spring.jpa.database-platform=com.mysql.cj.jdbc.Driver<br>
+spring.jpa.hibernate.ddl-auto=update<br>
+spring.datasource.url=jdbc:mysql://localhost:3306/gym<br>
+spring.datasource.username=root<br>
+spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver<br>
+spring.jpa.show-sql=true<br>
+spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect<br>
+</p>

@@ -17,7 +17,7 @@
 <p>At first you should download IntelliJ IDEA Ultimate and then from the <a href="https://start.spring.io">spring initializr</a> you choose your project, I have chose the Maven, language: Java, Spring Boot 27.8.
 </p><br> 
 <p>
-<img src="springI.png">
+<img src="/images/springI.png">
 </p>
 
 ### Dependencies:
@@ -31,13 +31,13 @@
 ## DDL script
 <p>To connect the prpject will database, you should do some changes and write things in application.properties and be sure you have dependency:<br>
 <p>
- <img src="dependency.png">
+ <img src="/images/dependency.png">
 </p>
 
 <br>
 And in application.properties should add:<br><br>
 <p>
- <img src="properties.png">
+ <img src="/images/properties.png">
 </p>
 <br><p>Then you should create the database in phpmyAdmin and write the database name, after all this you can create the @REST operations and from Insomnia you can write and then it creates automatically the tables and insert records. </p>
 

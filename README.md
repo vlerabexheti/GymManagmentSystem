@@ -169,12 +169,12 @@ HTTP has a few important verbs.</p>
 
 ### Make the Equipment Repository
 <p>
-<img src="equipmentr.png">
+<img src="equipmentsr.png">
 </p>
 <br>
 
 ### Make the Equipment Controller
 <p>
-<img src="equipmentc.png">
+<img src="equipmentsc.png">
 </p>
 <br>

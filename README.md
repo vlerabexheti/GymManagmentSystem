@@ -204,7 +204,9 @@ HTTP has a few important verbs.</p>
 <br>
 <img src="test.png">
 <br>
+<br>
 <img src="test1.png">
+<br>
 <br>
 <img src="test3.png">
 

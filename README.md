@@ -117,7 +117,7 @@ HTTP has a few important verbs.</p>
 
 ### Make the Member Entity
 <p>
-<img src="member.png" width="50%">
+<img src="member.png">
 </p>
 <h3>Here we should be careful when defining the foreign key from the trainer table. We here used @ManyToOne annotation and @JoinColumn
 <br>
@@ -130,13 +130,13 @@ HTTP has a few important verbs.</p>
 
 ### Make the Member Repository
 <p>
-<img src="memberr.png" width="50%">
+<img src="memberr.png" width="100%">
 </p>
 <br>
 
 ### Make the Member Controller
 <p>
-<img src="memberc.png" width="50%">
+<img src="memberc.png" width="100%">
 </p>
 <br>
 

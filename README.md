@@ -17,7 +17,7 @@
 <p>At first you should download IntelliJ IDEA Ultimate and then from the <a href="https://start.spring.io">spring initializr</a> you choose your project, I have chose the Maven, language: Java, Spring Boot 27.8.
 </p><br> 
 <p>
-<img src="springI.png"width="220" height="240">
+<img src="springI.png"width="600" height="400>
 </p>
 
 ### Dependencies:

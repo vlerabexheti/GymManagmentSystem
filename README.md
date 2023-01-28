@@ -54,12 +54,35 @@ HTTP has a few important verbs.</p>
 <li>PUT: Update an existing resource</li>
 <li>DELETE: Delete a resource</li>
 
-## Make Your Very First JPA Entity 
+### Make First JPA Entity 
 <p>The first step is to create a JPA Entity. First let's create a trainer entity with a primary key id.</p>
 <p>
  <img src="trainer.png">
 </p>
+<h3>Important things to note:</h3>
+<ul>
+<li>@Entity: Specifies that the class is an entity. This annotation is applied to the entity class.</li>
+<li>@Id: Specifies the primary key of an entity.</li>
+<li>@GeneratedValue:  It provides for the specification of generation strategies for the values of primary keys.</li>
+<li>public Trainer(): JPA-firendly default function Object()</li>
+</ul>
 
+### Make First Repository
+<p>Now let's create an Interface TrainerRepository</p>
+<p>
+ <img src="trainerr.png">
+</p>
 
+### Make Service and DefaultService
+<p>We create now a Service that is an Interface and a DefaultService, a class that will inherit the interface </p>
+<p>
+ <img src="trainers.png"><img src="trainderdf.png>
+</p>
+
+### Make Controller
+<p>At the end we should create a Controller that will connect with HTTP Requests.</p>
+<p>
+ <img src="trainerc.png">
+</p>
 
 

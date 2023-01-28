@@ -33,9 +33,6 @@
 <p>
 <img src="DEPENDENCY.png">
 </p>
-<ul>
-<li>com.mysql</li><br>
-<li>mysql-connector-j</li></ul><br>
 <br>
 And in application.properties should add:<br><br>
 <ul>

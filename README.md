@@ -15,7 +15,8 @@
 
 ## Steps To Run The Project
 <p>At first you should download IntelliJ IDEA Ultimate and then from the <a href="https://start.spring.io">speing initializr</a> you choose your project, I have chose the Maven, language: Java, Spring Boot 27.8.</br> 
-The dependencies are:
+
+### The dependencies are:
 <ul>
 <li>Spring Web</li>
 <li>Spring Data Jpa</li>

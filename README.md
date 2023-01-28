@@ -54,6 +54,12 @@ HTTP has a few important verbs.</p>
 <li>PUT: Update an existing resource</li>
 <li>DELETE: Delete a resource</li>
 
+## Make Your Very First JPA Entity 
+<p>The first step is to create a JPA Entity. First let's create a trainer entity with a primary key id.</p>
+<p>
+ <img src="trainer.png">
+</p>
+
 
 
 

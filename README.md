@@ -151,3 +151,30 @@ HTTP has a few important verbs.</p>
 <p>
 <img src="1.png" width="50%" height="290"><img src="1.1.png"width="50%">
 </p>
+
+<br>
+
+### Make the Equipment Entity
+<h3>Now will create the Equipment Entity</h3>
+<p>
+<img src="equipment.png" width="100%">
+</p>
+<br>
+
+### Make the Equipment Service
+<p>
+<img src="equipments.png" width="50%" height="290"><img src="equipmentsd.png"width="50%">
+</p>
+<br>
+
+### Make the Equipment Repository
+<p>
+<img src="equipmentr.png">
+</p>
+<br>
+
+### Make the Equipment Controller
+<p>
+<img src="equipmentc.png">
+</p>
+<br>

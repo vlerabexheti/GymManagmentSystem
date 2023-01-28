@@ -17,7 +17,7 @@
 <p>At first you should download IntelliJ IDEA Ultimate and then from the <a href="https://start.spring.io">spring initializr</a> you choose your project, I have chose the Maven, language: Java, Spring Boot 27.8.
 </p><br> 
 <p>
-<img src="springI.png"width="600" height="400>
+<img src="springI.png">
 </p>
 
 ### Dependencies:
@@ -30,6 +30,9 @@
 
 ## DDL script
 <p>To connect the prpject will database, you should do some changes and write things in application.properties and be sure you have dependency:<br>
+<p>
+<img src="DEPENDENCY.png">
+</p>
 <ul>
 <li>com.mysql</li><br>
 <li>mysql-connector-j</li></ul><br>

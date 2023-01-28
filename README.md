@@ -57,7 +57,7 @@ HTTP has a few important verbs.</p>
 ### Make First JPA Entity 
 <p>The first step is to create a JPA Entity. First let's create a trainer entity with a primary key id.</p>
 <p>
- <img src="trainer.png">
+ <img src="/images/trainer.png">
 </p>
 <h3>Important things to note:</h3>
 <ul>
@@ -70,20 +70,20 @@ HTTP has a few important verbs.</p>
 ### Make First Repository
 <p>Now let's create an Interface TrainerRepository</p>
 <p>
- <img src="trainerr.png">
+ <img src="/images/trainerr.png">
 </p>
 
 ### Make Service and DefaultService
 <p>We create now a Service that is an Interface and a DefaultService, a class that will inherit the interface </p>
 <p>
- <img src="trainers.png" width="50%"height="350"><img src="trainerdf.png"width="50%">
+ <img src="/images/trainers.png" width="50%"height="350"><img src="/images/trainerdf.png"width="50%">
  
 </p>
 
 ### Make Controller
 <p>At the end we should create a Controller that will connect with HTTP Requests.</p>
 <p>
- <img src="trainerc.png">
+ <img src="/images/trainerc.png">
 </p>
 <br>
 
@@ -96,47 +96,47 @@ HTTP has a few important verbs.</p>
 <br>
 <h3>POST Request</h3>
 <p>
-<img src="post.png" width="50%" height="290"><img src="postResponse.png"width="50%">
+<img src="/images/post.png" width="50%" height="290"><img src="/images/postResponse.png"width="50%">
 </p>
 <br>
 <h3>GET Request</h3>
 <p>
-<img src="get.png" width="50%"height="340"><img src="getResponse.png"width="50%">
+<img src="/images/get.png" width="50%"height="340"><img src="/images/getResponse.png"width="50%">
 </p>
 <br>
 <h3>PUT Request</h3>
 <p>
-<img src="put.png" width="50%"height="340"><img src="putResponse.png"width="50%">
+<img src="images/put.png" width="50%"height="340"><img src="images/putResponse.png"width="50%">
 </p>
 <br>
 <h3>DELETE Request</h3>
 <p>
-<img src="delete.png" width="50%"height="200"><img src="deleteResponse.png"width="50%">
+<img src="/images/delete.png" width="50%"height="200"><img src="images/deleteResponse.png"width="50%">
 </p>
 <br>
 
 ### Make the Member Entity
 <p>
-<img src="member.png">
+<img src="/images/member.png">
 </p>
 <h3>Here we should be careful when defining the foreign key from the trainer table. We here used @ManyToOne annotation and @JoinColumn
 <br>
 
 ### Make the Member Service
 <p>
-<img src="members.png" width="50%"height="280"><img src="membersd.png" width="50%">
+<img src="/images/members.png" width="50%"height="280"><img src="/images/membersd.png" width="50%">
 </p>
 <br>
 
 ### Make the Member Repository
 <p>
-<img src="memberr.png" width="100%">
+<img src="/images/memberr.png" width="100%">
 </p>
 <br>
 
 ### Make the Member Controller
 <p>
-<img src="memberc.png" width="100%">
+<img src="/images/memberc.png" width="100%">
 </p>
 <br>
 
@@ -144,12 +144,12 @@ HTTP has a few important verbs.</p>
 <br>
 <h3>POST Request</h3>
 <p>
-<img src="memberpost.png" width="50%" height="290"><img src="memberresponse.png"width="50%">
+<img src="/images/memberpost.png" width="50%" height="290"><img src="/images/memberresponse.png"width="50%">
 </p>
 <br>
 <h3>So after inserting the member we can see now the GET request from the trainer</h3>
 <p>
-<img src="1.png" width="50%" height="290"><img src="1.1.png"width="50%">
+<img src="/images/1.png" width="50%" height="290"><img src="/images/1.1.png"width="50%">
 </p>
 
 <br>
@@ -157,25 +157,25 @@ HTTP has a few important verbs.</p>
 ### Make the Equipment Entity
 <h3>Now will create the Equipment Entity</h3>
 <p>
-<img src="equipment.png" width="100%">
+<img src="/images/equipment.png" width="100%">
 </p>
 <br>
 
 ### Make the Equipment Service
 <p>
-<img src="equipments.png" width="50%"><img src="equipmentsd.png"width="50%">
+<img src="/images/equipments.png" width="50%"><img src="/images/equipmentsd.png"width="50%">
 </p>
 <br>
 
 ### Make the Equipment Repository
 <p>
-<img src="equipmentsr.png">
+<img src="/images/equipmentsr.png">
 </p>
 <br>
 
 ### Make the Equipment Controller
 <p>
-<img src="equipmentsc.png">
+<img src="/images/equipmentsc.png">
 </p>
 <br>
 <br>
@@ -184,34 +184,34 @@ HTTP has a few important verbs.</p>
 <br>
 <h3>POST Request</h3>
 <p>
-<img src="equipmentpost.png" width="50%"><img src="equipmentresponse.png"width="50%">
+<img src="/images/equipmentpost.png" width="50%"><img src="/images/equipmentresponse.png"width="50%">
 </p>
 <br>
 <h3>GET Request</h3>
 <p>
-<img src="equipmentget.png" width="50%"><img src="equipmentgetresponse.png"width="50%">
+<img src="/images/equipmentget.png" width="50%"><img src="/images/equipmentgetresponse.png"width="50%">
 </p>
 <br>
 <br>
 <h3>DELETE Request</h3>
 <p>
-<img src="eqdel.png" width="50%"><img src="eqdelres.png"width="50%">
+<img src="/images/eqdel.png" width="50%"><img src="/images/eqdelres.png"width="50%">
 </p>
 <br>
 <br>
 
 ### Unit Testing
 <br>
-<img src="test.png">
+<img src="/images/test.png">
 <br>
-<img src="test1.png">
-<br>
-<br>
-<br>
-<img src="test3.png">
+<img src="/images/test1.png">
 <br>
 <br>
 <br>
-<img src="test4.png">
+<img src="/images/test3.png">
+<br>
+<br>
+<br>
+<img src="/images/test4.png">
 
 

@@ -178,3 +178,25 @@ HTTP has a few important verbs.</p>
 <img src="equipmentsc.png">
 </p>
 <br>
+<br>
+
+## HTTP Request
+<br>
+<h3>POST Request</h3>
+<p>
+<img src="equipmentpost.png" width="50%"><img src="equipmentresponse.png"width="50%">
+</p>
+<br>
+<h3>GET Request</h3>
+<p>
+<img src="equipmentget.png" width="50%"><img src="equipmentgetresponse.png"width="50%">
+</p>
+<br>
+<br>
+<h3>DELETE Request</h3>
+<p>
+<img src="eqdel.png" width="50%"><img src="eqdelres.png"width="50%">
+</p>
+<br>
+
+

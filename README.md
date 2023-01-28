@@ -79,6 +79,8 @@ HTTP has a few important verbs.</p>
  <img src="trainers.png" width="50%"><img src="trainerdf.png"width="50%">
  
 </p>
+<p>
+</p>
 
 ### Make Controller
 <p>At the end we should create a Controller that will connect with HTTP Requests.</p>

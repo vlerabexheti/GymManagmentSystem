@@ -85,9 +85,12 @@ HTTP has a few important verbs.</p>
 <p>
  <img src="trainerc.png">
 </p>
+<br>
 
 ## REST API
 <p>The REST API to the example app is described below. We will use Insomnia the examples to test.</p>
+
+<br>
 
 ## HTTP Request
 <br>
@@ -95,39 +98,47 @@ HTTP has a few important verbs.</p>
 <p>
 <img src="post.png" width="50%" height="290"><img src="postResponse.png"width="50%">
 </p>
+<br>
 <h3>GET Request</h3>
 <p>
 <img src="get.png" width="50%"height="340"><img src="getResponse.png"width="50%">
 </p>
+<br>
 <h3>PUT Request</h3>
 <p>
 <img src="put.png" width="50%"height="340"><img src="putResponse.png"width="50%">
 </p>
+<br>
 <h3>DELETE Request</h3>
 <p>
 <img src="delete.png" width="50%"height="200"><img src="deleteResponse.png"width="50%">
 </p>
+<br>
 
 ### Make the Member Entity
 <p>
 <img src="member.png" width="50%">
 </p>
 <h3>Here we should be careful when defining the foreign key from the trainer table. We here used @ManyToOne annotation and @JoinColumn
+<br>
 
 ### Make the Member Service
 <p>
-<img src="members.png" width="50%"height="320"><img src="membersd.png" width="50%">
+<img src="members.png" width="50%"height="280"><img src="membersd.png" width="50%">
 </p>
+<br>
 
 ### Make the Member Repository
 <p>
 <img src="memberr.png" width="50%">
 </p>
+<br>
 
 ### Make the Member Controller
 <p>
 <img src="memberc.png" width="50%">
 </p>
+<br>
 
 ## HTTP Request
 <br>
@@ -135,7 +146,8 @@ HTTP has a few important verbs.</p>
 <p>
 <img src="memberpost.png" width="50%" height="290"><img src="memberresponse.png"width="50%">
 </p>
-<p>So after inserting the member we can see now the GET request from the trainer</p>
+<br>
+<h3>So after inserting the member we can see now the GET request from the trainer</h3>
 <p>
 <img src="1.png" width="50%" height="290"><img src="1.1.png"width="50%">
 </p>

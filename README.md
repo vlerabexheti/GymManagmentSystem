@@ -116,7 +116,7 @@ HTTP has a few important verbs.</p>
 
 ### Make the Member Service
 <p>
-<img src="members.png" width="50%"><img src="membersd.png" width="50%">
+<img src="members.png" width="50%"height="320"><img src="membersd.png" width="50%">
 </p>
 
 ### Make the Member Repository

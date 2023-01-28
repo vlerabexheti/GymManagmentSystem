@@ -97,7 +97,7 @@ HTTP has a few important verbs.</p>
 </p>
 <h3>GET Request</h3>
 <p>
-<img src="get.png" width="50%"><img src="getResponse.png"width="50%">
+<img src="get.png" width="50%"height="320"><img src="getResponse.png"width="50%">
 </p>
 <h3>PUT Request</h3>
 <p>

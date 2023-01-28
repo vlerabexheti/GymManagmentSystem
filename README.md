@@ -31,8 +31,9 @@
 ## DDL script
 <p>To connect the prpject will database, you should do some changes and write things in application.properties and be sure you have dependency:<br>
 <p>
-<img src="DEPENDENCY.png">
+ <img src="DEPENDENCY.png">
 </p>
+
 <br>
 And in application.properties should add:<br><br>
 <ul>

@@ -163,7 +163,7 @@ HTTP has a few important verbs.</p>
 
 ### Make the Equipment Service
 <p>
-<img src="equipments.png" width="50%" height="290"><img src="equipmentsd.png"width="50%">
+<img src="equipments.png" width="50%"><img src="equipmentsd.png"width="50%">
 </p>
 <br>
 

@@ -25,17 +25,16 @@ The dependencies are:
 
 ## DDL script
 <p>To connect the prpject will database, you should do some changes and write things in application.properties and be sure you have dependency:<br>
-<dependency><br>
 <groupId>com.mysql</groupId><br>
 <artifactId>mysql-connector-j</artifactId><br>
-<scope>runtime</scope><br>
-</dependency><br>
-And in application.properties should add:<br>
+<br>
+And in application.properties should add:<br><br>
 spring.jpa.database-platform=com.mysql.cj.jdbc.Driver<br>
 spring.jpa.hibernate.ddl-auto=update<br>
-spring.datasource.url=jdbc:mysql://localhost:3306/gym<br>
+spring.datasource.url=jdbc:mysql://localhost:3306/database_name<br>
 spring.datasource.username=root<br>
 spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver<br>
 spring.jpa.show-sql=true<br>
 spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5Dialect<br>
+<br>Then you should create the database in phpmyAdmin and write the database name, after all this you can create the @REST operations and from Insomnia you can write and then it creates automatically the tables and insert records. 
 </p>
